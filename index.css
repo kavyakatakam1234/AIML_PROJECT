@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #e8e6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+    width: 900px;
+    height: 500px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #49358c;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #8275a8;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+/* Suggestion Buttons */
+.suggestions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.suggestions button {
+    background-color: #f0edff;
+    color: #55458b;
+    border: black;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.suggestions button:hover {
+    background-color: #ded6ff;
+    color: #49358c;
+}
+
+/* Chat Box */
+#chat-box {
+    height: 210px;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #faf9ff;
+}
+
+/* Bot Message */
+.bot-msg {
+    color: #51466e;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+/* User Message */
+.user-msg {
+    background-color: #e8e2ff;
+    color: #3f326b;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 10px 0 10px auto;
+}
+
+/* Input Area */
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 14px;
+    border: 1px solid #d8d0f5;
+    border-radius: 10px;
+    outline: none;
+}
+
+.input-area input:focus {
+    border-color: #8872d6;
+}
+
+/* Send Button */
+.input-area button {
+    background-color: #8065c9;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.input-area button:hover {
+    background-color: #6349aa;
+}
